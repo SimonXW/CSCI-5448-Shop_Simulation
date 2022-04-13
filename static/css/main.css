@@ -39,14 +39,14 @@ html,body{height:100%}
 
 /* logo、搜索框、购物车样式 */
 
-.search_bar{width:1200px;height:115px;margin:0 auto;}
+.search_bar{width:1200px;height:150px;margin:0 auto; background-color: black}
 .logo{width:150px;height:59px;margin:29px 0 0 17px;}
 
-.search_con{width:616px;height:38px;border:1px solid #37ab40;margin:34px 0 0 124px;background:url(../images/icons.png) 10px -338px no-repeat;}
+.search_con{width:616px;height:38px;border:1px solid black;margin:60px 0 0 190px;background:url(../images/icons.png) 10px -338px no-repeat;}
 .search_con .input_text{width:470px;height:34px;border:0px;margin:2px 0 0 36px;outline:none;font-size:12px;color:#737272;font-family:'Microsoft Yahei'}
 
 .search_con .input_btn{
-	width:100px;height:38px;background-color:#37ab40;border:0px;font-size:14px;color:#fff;font-family:'Microsoft Yahei';outline:none;cursor:pointer;
+	width:100px;height:38px;background-color:#D0B96B;border:0px;font-size:14px;color:#fff;font-family:'Microsoft Yahei';outline:none;cursor:pointer;
 }
 
 .guest_cart{
@@ -54,7 +54,7 @@ html,body{height:100%}
 }
 
 .guest_cart .cart_name{
-	width:158px;height:38px;line-height:38px;border:1px solid #dddddd;display:block;background:url(../images/icons.png) 13px -300px no-repeat;font-size:14px;color:#37ab40;text-indent:56px;
+	width:158px;height:38px;line-height:38px;border:1px solid #dddddd;display:block;background:url(../images/icons.png) 13px -300px no-repeat;font-size:14px;color:#D0B96B;text-indent:56px;
 }
 
 .guest_cart .goods_count{
@@ -119,13 +119,13 @@ html,body{height:100%}
 /* 商品列表样式 */
 
 .list_model{width:1200px;height:340px;margin:15px auto 0;}
-.list_title{height:40px;border-bottom:2px solid #42ad46}
-.list_title h3{height:40px;line-height:40px;font-size:16px;color:#37ab40;font-weight:bold;}
+.list_title{height:auto;border-bottom:2px solid black}
+.list_title h3{height:40px;line-height:40px;font-size:16px;color: black;font-weight:bold;}
 .list_title .subtitle{height:20px;line-height:20px;margin-top:15px;}
 .list_title .subtitle span{color:#666;margin:0 10px 0 20px;}
 .list_title .subtitle a{color:#666;margin:0 5px;}
 .list_title .subtitle a:hover,.goods_more:hover{color:#ff8800}
-.goods_more{height:20px;margin-top:15px;color:#666}
+.goods_more{height:20px;margin-top:40px;color:#666}
 
 .goods_con{height:300px;}
 .goods_banner{width:200px;height:300px;}
@@ -542,7 +542,6 @@ html,body{height:100%}
 	background-color:#f9f9f9;
 	margin:10px 0 15px;
 	padding:10px 0;
-	height:90px;
 }
 
 .user_info_list li{
